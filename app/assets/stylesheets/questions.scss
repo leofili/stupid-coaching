@@ -1,0 +1,28 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+}
+
+h1 {
+  font-size: 50px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.coach {
+  background-color: #FFFFE1;
+  border-left: solid;
+  padding-left: 8px;
+}
+
+a {
+  color: grey;
+  ;
+  &:hover {
+    color: black;
+  }
+}
+
+p {
+  font-style: italic;
+}
